@@ -152,7 +152,7 @@ for(j=(n-w); j<p; j++) {
 		cout<<"\n";
 
 		// ternary to decimal number
-		int a=0;
+		long double a=0;
 		for(i=1; i<n; i++) {
 			a += ((int(x[i])-48) * pow(3, (n-1-i)));
 		}
